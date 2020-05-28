@@ -1,3 +1,33 @@
-baseURL = "http://example.org/"
+baseURL = "/hugo_blog/"
+#baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "☀Blogs"
+
+#指定主题
+theme = 'hyde'
+
+[params]
+#博客简介
+description = '✎    李逸宁'
+#博客主题颜色
+themeColor = 'theme-base-0self'
+
+disqusShortname = "spf13"
+googleAnalytics = "Your tracking code"
+
+
+# Tips: 每个页面显示的文章数
+paginate = 10
+
+
+# 测试
+[[menu.main]]
+    name = "test"
+    identifier = "test"
+    weight =200
+    url = "/test_Blog/"
+
+ [[params.social]]
+name = "email"
+url  = "https://github.com/LYN0422"
+
